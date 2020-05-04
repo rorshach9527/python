@@ -21,5 +21,5 @@ def update(frames, img, board):
 
 fig, ax = plt.subplots()
 img = ax.imshow(random_board)
-ani = FuncAnimation(fig, update, fargs=(img, random_board), interval=5, save_count=50)
+ani = FuncAnimation(fig, update, fargs=(img, random_board), interval=5)
 plt.show()
